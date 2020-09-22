@@ -1,2 +1,4 @@
 
-courseproject/.project
+courseproject/src/courseproject/Hello.java
+courseproject/.settings/org.eclipse.jdt.core.prefs
+courseproject/.classpath
