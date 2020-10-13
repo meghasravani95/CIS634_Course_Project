@@ -1,0 +1,50 @@
+.footer
+{
+    margin: 0px auto;
+    background-color:#000000;
+    background: #466168ce;
+  background: -webkit-linear-gradient(#648880, #293f50);
+  background:    -moz-linear-gradient(#648880, #293f50);
+  background:         linear-gradient(#648880, #293f50);
+    color: #ffffff;
+
+    
+}
+.footer h2{
+    
+    color: #ffffff;
+}
+
+/*.footer a{
+    
+    color: #A9A9A9;
+    font-size: 120%;
+}*/
+.footer h4{
+    
+    
+        color: #ffffff;
+    
+    
+}
+
+.header
+{
+    margin-bottom:55px;
+  
+   
+}
+.chefimg {
+    background-image: url('/images/chef3.jpg');
+    background-size: 100%;
+    
+  background-repeat: no-repeat;
+    opacity: 0.8;
+   }
+
+   .signupimg {
+    background-image: url('../images/signup.jpg');
+    background-size: 100%;
+    opacity: 0.75;
+   }
+ 
