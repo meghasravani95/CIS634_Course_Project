@@ -21,7 +21,7 @@
   <div class="container header" >
       <div class="row">
           <div class="col-12 col-sm-12">
-            <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #293f50;">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #060658;">
                 
                 <i class="fa fa-home fa-lg fa-3x"  style="margin-right: 20px ; color: #ffffff"></i>
                 <a class="navbar-brand" href="./index.html">Homely</a>
@@ -39,6 +39,9 @@
                     <li class="nav-item">
                       <a class="nav-link" href="./signup.html">Sign Up</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./cart.html"> <i class="fa fa-shopping-cart fa-lg fa-2x"  style="margin-right: 20px ; color: #ffffff"></i></a>
+                      </li>
                   </ul>
                 </div>
               </nav>
@@ -62,38 +65,38 @@
    
             <form>
                 
-               
+                <h5 style="color:#060658; margin-top:200px">Submit this form to become a homely employee</h5>
                 <div class="form-group-row " style="margin-bottom: 20px; margin-top:20px">
                     
                     <div class="col-sm-6">
-                        <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name">
+                        <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name" required />
                     </div>
                 </div>
 
                 <div class="form-group-row " style="margin-bottom: 20px;">
                     
                     <div class="col-sm-6">
-                        <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name">
+                        <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name" required />
                     </div>
                 </div>
 
                 <div class="form-group-row " style="margin-bottom: 20px;">
                     
                     <div class="col-sm-6">
-                        <input type="tel" class="form-control" id="Tel num" name="Tel num" placeholder="Tel. Number">
+                        <input type="tel" class="form-control" id="Tel num" name="Tel num" placeholder="Tel. Number"required />
                     </div>
                 </div>
                 <div class="form-group-row " style="margin-bottom: 20px;">
                     
                     <div class="col-sm-6">
-                        <input type="email" class="form-control" id="email" name="email" placeholder="Email Id">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Email Id" required />
                     </div>
                 </div>
 
                 <div class="form-group-row " style="margin-bottom: 20px;">
                     
                     <div class="col-sm-6">
-                        <select class="form-control">
+                        <select class="form-control" >
                             
                             <option>
                                 Cuisine Type
@@ -134,7 +137,7 @@
 
                 <div class="form-group-row " style="margin-bottom: 20px;">
                     <div class="col-sm-6 ">
-                        <input type="checkbox" class="form-check-input" name="approve" id="approve" value="">
+                        <input type="checkbox" class="form-check-input" name="approve" id="approve" value="" required />
                         <label class="form-check-label" for="approve">
                             By checking this box, you agree to our Terms &amp; Conditions
                         </label>
@@ -142,7 +145,7 @@
                 </div>
 
                 <div class="form-group row" style="margin-bottom: 20px;">
-                    <div class=" col-sm-6">
+                    <div class=" offset-2 col-sm-6">
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </div>
             </div>
